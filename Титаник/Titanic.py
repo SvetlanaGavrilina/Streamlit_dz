@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('test.csv')
+df = pd.read_csv('Титаник/test.csv')
 
 st.subheader("Данные")
 st.dataframe(df)
